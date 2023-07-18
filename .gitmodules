@@ -1,7 +1,0 @@
-[submodule "openssl"]
-	path = openssl
-<<<<<<< HEAD
-	url = https://github.com/openssl/openssl
-=======
-	url = https://github.com/openssl/openssl
->>>>>>> e2da0eaa554bb88c5ed4a49cf07937defc49aca6
