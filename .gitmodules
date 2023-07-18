@@ -1,2 +1,3 @@
 [submodule "openssl"]
-	url = https://github.com/CharmiDesai1/AI-Lawyer.git
+	path = openssl
+	url = https://github.com/openssl/openssl
