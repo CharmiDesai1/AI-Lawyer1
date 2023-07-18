@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config()
-const PORT = 8000;
+const PORT = 8001;
 
 const app = express();
 //we cant parse over json from the frontend to the backend unless

@@ -4,6 +4,7 @@ import Document from './document';
 import MainPage from './mainPage';
 import Children from './children';
 import Property from './property';
+import Family from './family';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
               <Route path='/document' element={<Document />} />
               <Route path='/chat' element={<Chat />} />
               <Route path='/children' element={<Children />} />
+              <Route path='/family' element={<Family />} />
               <Route path='/property' element={<Property />} />
           </Routes>
       </Router>
