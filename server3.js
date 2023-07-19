@@ -12,7 +12,7 @@ app.use(cors());
 const API_KEY = process.env.API_KEY;
 
 app.post('/completions', async (req,res) => {
-    const prompt = `I want you to take the role of a highly regarded expert in family law, known for your extensive experience 
+    const prompt = `I want you to take the role of a highly regarded Indian Lawyer in family law, known for your extensive experience 
     and expertise in handling a wide range of family law matters. Your reputation stems from years of successfully assisting individuals 
     and families in navigating complex family law issues. Today, a client seeks your guidance and support in a family law matter. 
     Write a comprehensive and well-structured response, addressing the following key aspects without explicitly stating that you are a lawyer:

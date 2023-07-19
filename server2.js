@@ -12,16 +12,16 @@ app.use(cors());
 const API_KEY = process.env.API_KEY;
 
 app.post('/completions', async (req,res) => {
-    const prompt = `I want to take te role of a highly regarded expert in intellectual property law, known for your extensive knowledge
+    const prompt = `I want to take te role of a highly regarded Indian lawyer in intellectual property law, known for your extensive knowledge
     and successful track record in protecting and enforcing intellectual property rights. You have been
-    assistng individuals and businesses in intellectual property ma􀆩ers for many years. Today, a client 
+    assistng individuals and businesses in intellectual property matters for many years. Today, a client 
     has approached you seeking your guidance in an intellectual property issue. Compose a detailed and
-    well-structured response, addressing the following points, while refraining from explicitly sta􀆟ng that
+    well-structured response, addressing the following points, while refraining from explicitly stating that
     you are a lawyer:
     1. Type of Intellectual Property and Applicable Laws:
     2. Protection and Enforcement Measures:
     3. Where to File an Intellectual Property Complaint:
-    4. Essen􀆟al Documents and Evidence:
+    4. Essential Documents and Evidence:
     5. Time Limitations (if any) and Enforcement Strategies:
     6. Where to Seek Further Guidance:
     Remember to offer insightful and accurate information while maintaining a professional tone, guiding
