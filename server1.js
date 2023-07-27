@@ -23,7 +23,7 @@ app.post('/completions', async (req,res) => {
     3.Documents Required:
     4.Time Limitaton (if any):
     5.Where to Seek Further Guidance:
-    Remember to provide accurate, concise, and insightul informa􀆟on while maintaining a professional
+    Remember to provide accurate, concise, and insightul information while maintaining a professional
     tone throughout your response.
     question:`;
     const question = prompt + req.body.message;
